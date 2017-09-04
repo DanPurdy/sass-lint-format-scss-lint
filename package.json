@@ -4,7 +4,7 @@
   "description": "scss-lint default style formatter for Sass-lint",
   "main": "index.js",
   "scripts": {
-    "pretest": "eslint .",
+    "pretest": "./node_modules/eslint/bin/eslint.js .",
     "test": "./node_modules/mocha/bin/_mocha -R spec tests"
   },
   "repository": {
