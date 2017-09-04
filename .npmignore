@@ -1,2 +1,8 @@
-.gitignore
 tests
+.editorconfig
+.eslintrc.json
+.gitignore
+.travis.yml
+appveyor.yml
+CHANGELOG.md
+LICENSE

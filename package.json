@@ -1,10 +1,11 @@
 {
   "name": "sass-lint-format-scss-lint",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "scss-lint default style formatter for Sass-lint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "eslint .",
+    "test": "./node_modules/mocha/bin/_mocha -R spec tests"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,13 @@
   "homepage": "https://github.com/DanPurdy/sass-lint-format-scss-lint#readme",
   "dependencies": {
     "chalk": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chalk": "^2.1.0",
+    "eslint": "^4.6.1",
+    "mocha": "^3.5.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^3.2.1"
   }
 }
