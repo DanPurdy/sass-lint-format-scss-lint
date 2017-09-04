@@ -1,0 +1,29 @@
+{
+  "name": "sass-lint-format-scss-lint",
+  "version": "1.0.0",
+  "description": "scss-lint default style formatter for Sass-lint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanPurdy/sass-lint-format-scss-lint.git"
+  },
+  "keywords": [
+    "sass-lint",
+    "formatter",
+    "scss-lint",
+    "Sass",
+    "scss",
+    "linter",
+    "lint",
+    "format"
+  ],
+  "author": "Dan Purdy <dan@dpurdy.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanPurdy/sass-lint-format-scss-lint/issues"
+  },
+  "homepage": "https://github.com/DanPurdy/sass-lint-format-scss-lint#readme"
+}
